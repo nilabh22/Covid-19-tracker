@@ -21,13 +21,7 @@ class Coronavirus():
         total_recovered = data[6]
         serious_critical = data[7]
 
-        #total_cases = row.find_element_by_class_name('sorting_1')
-        #new_cases = row.find_element_by_xpath("//td[3]")
-        #total_deaths = row.find_element_by_xpath("//td[4]")
-        #new_deaths = row.find_element_by_xpath("//td[5]")
-        #active_cases = row.find_element_by_xpath("//td[6]")
-        #total_recovered = row.find_element_by_xpath("//td[7]")
-        #serious_critical = row.find_element_by_xpath("//td[8]")
+
         print("Country: " + country_element.text)
         print("Total cases: " + total_cases)
         print("New cases: " + new_cases)
