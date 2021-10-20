@@ -1,7 +1,5 @@
 from selenium import webdriver
-from time import sleep
 import re
-from datetime import datetime
 import smtplib
 
 class Coronavirus():
